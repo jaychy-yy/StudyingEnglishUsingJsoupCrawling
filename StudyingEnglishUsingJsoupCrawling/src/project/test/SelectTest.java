@@ -25,6 +25,7 @@ public class SelectTest {
 		Elements elements3 = doc.select("frameset").select("frame");
 		for(Element e : elements3) {
 			System.out.println(e.data());
+			System.out.println(e.baseUri());
 		}
 	}
 }
